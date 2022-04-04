@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.guercif.arzone.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.guercif.arzone.ui.gallery.GalleryFragment"
+        android:label="Programming"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.guercif.arzone.ui.slideshow.SlideshowFragment"
+        android:label="Tutsariel"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_blogger"
+        android:name="com.guercif.arzone.ui.blogger.Blogger"
+        android:label="Blogger"
+        tools:layout="@layout/blogger_fragment"
+        />
+    <fragment
+        android:id="@+id/nav_computer"
+        android:name="com.guercif.arzone.ui.computer.Computer"
+        android:label="Computer"
+        tools:layout="@layout/computer_fragment"/>
+    <fragment
+        android:id="@+id/nav_anroid"
+        android:name="com.guercif.arzone.ui.android.Android"
+        android:label="Android"
+        tools:layout="@layout/android_fragment"/>
+</navigation>
