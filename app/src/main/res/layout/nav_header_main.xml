@@ -25,7 +25,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="صديق عبد  الفتاح"
+        android:text="@string/nav_header_name"
         android:layoutDirection="rtl"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
@@ -33,5 +33,5 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="guercifzone-ar.blogspot.com" />
+        android:text="@string/SiteWeb" />
 </LinearLayout>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2475FC"
+    android:background="#137CED"
     tools:context=".MainActivity">
 
     <com.google.android.material.appbar.AppBarLayout
@@ -16,8 +16,8 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="#2475fc"
-            android:backgroundTint="#2475FC"
+            android:background="#CBDEFF"
+            android:backgroundTint="#ABC6F4"
             app:popupTheme="@style/Theme.ArZone.PopupOverlay" />
 
     </com.google.android.material.appbar.AppBarLayout>
